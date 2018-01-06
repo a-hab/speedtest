@@ -1,0 +1,12 @@
+[Unit]
+Description=Measuring download speed
+RefuseManualStart=no
+RefuseManualStop=no
+ 
+[Timer]
+Persistent=false
+OnCalendar=*-*-* *:00,30:00
+Unit=speedtest.service
+ 
+[Install]
+WantedBy=default.target

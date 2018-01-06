@@ -1,0 +1,8 @@
+[Unit]
+Description=Measuring download speed
+RefuseManualStart=no
+RefuseManualStop=yes
+ 
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/speedtest.sh
