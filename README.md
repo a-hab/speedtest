@@ -1,6 +1,6 @@
 # speedtest
 
-Small shell script inspired by tmkrth for logging download speeds over time.
+Small shell script inspired by [tmkrth](https://github.com/Tmkrth) for logging download speeds over time.
 
 ## Installation
 
